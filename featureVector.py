@@ -123,7 +123,7 @@ if __name__ == '__main__':
     numFeatures = 2#特徴ベクトルの次元数
     featureVectorName = ["Feature_A","Feature_B"]#それぞれの次元の名前
     '''
-    @note: 特徴量の候補：髪の長さ、身長、目の色が暖色か寒色か
+    @note: 特徴量の候補：髪の長さ、身長、目の色が暖色か寒色か、年齢（１０代か２０代か）
     '''
 
     if os.name == 'posix':
